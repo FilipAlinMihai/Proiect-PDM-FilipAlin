@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Proiect</string>
+    <string name="masini">Masini</string>
+    <string name="chestionar">Chestionar</string>
+    <string name="inchiriaza">Inchiriaza</string>
+    <string name="bun_venit">Bun Venit</string>
+</resources>

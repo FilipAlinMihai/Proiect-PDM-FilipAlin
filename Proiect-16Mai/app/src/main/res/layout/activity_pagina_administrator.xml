@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaginaAdministrator"
+    android:background="@drawable/fundal3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#669933"
+        android:layout_marginTop="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#669933"
+            >
+    <TextView
+        android:id="@+id/Gestionare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#081978"
+        android:text="Administrare"
+        android:textColor="#F2E8E0"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        app:fontFamily="casual"
+        />
+
+    <Button
+        android:id="@+id/Adauga"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Gestionare"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/buton"
+        android:text="Adauga Masini"
+        android:textColor="#F2E8E0"
+        android:textSize="30dp"
+        app:backgroundTint="#081978" />
+    <Button
+        android:id="@+id/Sterge"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Adauga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buton"
+        android:text="Sterge Masini"
+        android:textColor="#F2E8E0"
+        android:textSize="30dp"
+        app:backgroundTint="#081978" />
+
+    <Button
+        android:id="@+id/Incirieri"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Sterge"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buton"
+        android:text="Vezi Cereri"
+        android:textColor="#F2E8E0"
+        android:textSize="30dp"
+        app:backgroundTint="#081978" />
+    <Button
+        android:id="@+id/AfisareMasiniM"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Incirieri"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buton"
+        android:text="Afisare Masini"
+        android:textColor="#F2E8E0"
+        android:textSize="30dp"
+        app:backgroundTint="#081978" />
+
+            <Button
+                android:id="@+id/ModificaNR"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/AfisareMasiniM"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buton"
+                android:text="Modifica date"
+                android:textColor="#F2E8E0"
+                android:textSize="30dp"
+                app:backgroundTint="#081978" />
+
+            <Button
+                android:id="@+id/Asteptare"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ModificaNR"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buton"
+                android:text="In Asteptare"
+                android:textColor="#F2E8E0"
+                android:textSize="30dp"
+                app:backgroundTint="#081978"
+                android:layout_marginBottom="20dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

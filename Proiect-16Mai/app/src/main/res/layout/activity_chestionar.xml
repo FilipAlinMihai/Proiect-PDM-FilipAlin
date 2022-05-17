@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Chestionar"
+    android:background="@drawable/fundal7"
+    android:textColor="#669933"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#669933"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#669933"
+            >
+
+            <TextView
+                android:id="@+id/intrebare1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 Sunteti pasionat de masini ?"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <RadioGroup
+                android:id="@+id/grup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intrebare1">
+
+                <RadioButton
+                    android:id="@+id/b1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deloc"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateClickableBoundsCheck" />
+
+                <RadioButton
+                    android:id="@+id/b2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Putin"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateClickableBoundsCheck" />
+
+                <RadioButton
+                    android:id="@+id/b3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Destul de mult"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateClickableBoundsCheck" />
+
+                <RadioButton
+                    android:id="@+id/b4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Foarte"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateClickableBoundsCheck" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/intrebare2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grup1"
+                android:text="2 Cat de important este spatiul de depozitare pentru dumneavoastra ?"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <RadioGroup
+                android:id="@+id/grup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intrebare2">
+
+                <RadioButton
+                    android:id="@+id/b5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deloc"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Putin"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Destul de mult"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Foarte"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/intrebare3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grup2"
+                android:text="3 Cat de mult va plac experientele noi/inedite?"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <RadioGroup
+                android:id="@+id/grup3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intrebare3">
+
+                <RadioButton
+                    android:id="@+id/b9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deloc"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Putin"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Destul de mult"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Foarte"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/intrebare4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grup3"
+                android:text="4 Cat de important este sa aveti o masina cu performante ridicate ?"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <RadioGroup
+                android:id="@+id/grup4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intrebare4">
+
+                <RadioButton
+                    android:id="@+id/b13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deloc"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Putin"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Destul de mult"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Foarte"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/intrebare5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grup4"
+                android:text="5 Va place sa fiti pregatit pentru orice oricand ?"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <RadioGroup
+                android:id="@+id/grup5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intrebare5">
+
+                <RadioButton
+                    android:id="@+id/b17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DA"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NU"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/intrebare6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grup5"
+                android:text="6 Sunteti activ in timpul liber ?"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <RadioGroup
+                android:id="@+id/grup6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intrebare6">
+
+                <RadioButton
+                    android:id="@+id/b19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DA"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NU"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/intrebare7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grup6"
+                android:text="7 Va considerati o persoana cumpatata ?"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <RadioGroup
+                android:id="@+id/grup7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intrebare7">
+
+                <RadioButton
+                    android:id="@+id/b21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deloc"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Putin"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Destul de mult"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Foarte"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/intrebare8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grup7"
+                android:text="8 Este important pentru dumneavoastra sa conduceti o masina puternica ?"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <RadioGroup
+                android:id="@+id/grup8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intrebare8">
+
+                <RadioButton
+                    android:id="@+id/b25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deloc"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Putin"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Destul de mult"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Foarte"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/intrebare9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grup8"
+                android:layout_marginTop="0dp"
+                android:text="9 Cat de important este consumul scazut al  masinii pentru dumneavoastra ?"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <RadioGroup
+                android:id="@+id/grup9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intrebare9">
+
+                <RadioButton
+                    android:id="@+id/b29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deloc"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Putin"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Destul de mult"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Foarte"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/intrebare10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grup9"
+                android:text="10 Cat de punctual sunteti ?"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <RadioGroup
+                android:id="@+id/grup10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intrebare10">
+
+                <RadioButton
+                    android:id="@+id/b33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deloc"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Putin"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Destul de mult"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Foarte"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/intrebare11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grup10"
+                android:text="11 Cat de mult va place confortul ?"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <RadioGroup
+                android:id="@+id/grup11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intrebare11">
+
+                <RadioButton
+                    android:id="@+id/b37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Foarte putin"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+
+                <RadioButton
+                    android:id="@+id/b38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Putin"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mult"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Foarte mult"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/intrebare12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grup11"
+                android:text="12 Cat de important este sa aveti o masina cu performante ridicate ?"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <RadioGroup
+                android:id="@+id/grup12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intrebare12">
+
+                <RadioButton
+                    android:id="@+id/b41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deloc"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+
+                <RadioButton
+                    android:id="@+id/b42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Putin"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Destul de important"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Foarte"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/intrebare13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grup12"
+                android:text="13 In ce medi aveti de gand sa conduceti masina ?"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <RadioGroup
+                android:id="@+id/grup13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intrebare13">
+
+                <RadioButton
+                    android:id="@+id/b45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Urban"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+
+                <RadioButton
+                    android:id="@+id/b46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mixt(predominant urban)"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mixt(predominant rural)"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/b48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rural"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/intrebare14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grup13"
+                android:text="14 Va place sa va asumati riscuri ?"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <RadioGroup
+                android:id="@+id/grup14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intrebare14">
+
+                <RadioButton
+                    android:id="@+id/b49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DA"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+
+                <RadioButton
+                    android:id="@+id/b50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NU"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/intrebare15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grup14"
+                android:text="15 Va place sa priviti partea pina a paharului ?"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic" />
+
+            <RadioGroup
+                android:id="@+id/grup15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intrebare15">
+
+                <RadioButton
+                    android:id="@+id/b51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DA"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+
+                <RadioButton
+                    android:id="@+id/b52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NU"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/Raspunde"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grup15"
+                android:text="Raspunde"
+                android:textSize="30dp"
+                android:background="@drawable/buton"/>
+            <TextView
+                android:id="@+id/Rezultate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Raspunde"
+                android:text="Rezultatele"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:layout_marginBottom="20dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

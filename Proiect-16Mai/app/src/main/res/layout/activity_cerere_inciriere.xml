@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CerereInciriere"
+    android:background="@drawable/fundal3">
+
+    <TextView
+        android:id="@+id/TitluInciriere"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#081978"
+        android:gravity="center"
+        android:text="Inchiriaza o masina !"
+        android:textColor="#F2E8E0"
+        android:textSize="35sp"
+        app:drawableTint="#C82F2F"
+        app:fontFamily="casual" />
+
+    <EditText
+        android:id="@+id/MasinaDorida"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/TitluInciriere"
+        android:layout_marginTop="50dp"
+        android:background="#30ffffff"
+        android:hint="Masina"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp"
+        android:drawablePadding="20dp"
+        android:singleLine="true"
+        />
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/MasinaDorida"
+        android:layout_marginTop="50dp"
+        android:background="#30ffffff"
+        android:hint="Email"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp"
+        android:drawablePadding="20dp"
+        android:singleLine="true"
+        />
+    <EditText
+        android:id="@+id/Parola"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Email"
+        android:layout_marginTop="50dp"
+        android:background="#30ffffff"
+        android:hint="Parola"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp"
+        android:inputType="textPassword"
+        android:drawablePadding="20dp"
+        android:singleLine="true"
+        />
+
+    <Button
+        android:id="@+id/Inciriaza"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Parola"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buton"
+        android:text="Inchiriaza"
+        android:textColor="#F2E8E0"
+        android:textSize="25sp"
+        app:backgroundTint="#081978" />
+</RelativeLayout>

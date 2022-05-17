@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Autentificare"
+    android:background="@drawable/fundal3">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#081978"
+        android:gravity="center"
+        android:text="Autentificare"
+        android:textColor="#FFFF"
+        android:textSize="35dp"
+        app:drawableTint="#C82F2F"
+        app:fontFamily="casual" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="50dp"
+        android:background="#30ffffff"
+        android:hint="Email"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="20dp"
+        android:singleLine="true"
+        />
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="50dp"
+        android:background="#30ffffff"
+        android:inputType="textPassword"
+        android:hint="Parola"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="20dp"
+        android:singleLine="true"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp"
+        android:background="@drawable/buton"
+        android:text="Autentificare"
+        android:textColor="#FFFF"
+        android:textSize="25dp"
+        app:backgroundTint="#081978" />
+
+</RelativeLayout>

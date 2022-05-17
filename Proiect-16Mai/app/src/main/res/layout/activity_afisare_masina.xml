@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AfisareMasina"
+    android:background="@drawable/fundal3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#669933"
+
+        android:layout_marginTop="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#669933"
+            >
+    <TextView
+        android:id="@+id/Afisare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#081978"
+        android:text="Masini Disponibile"
+        android:textColor="#F2E8E0"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        app:fontFamily="casual"
+        />
+
+    <ImageView
+        android:id="@+id/ImagineMasina"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:layout_below="@+id/Afisare"
+        android:layout_marginTop="11dp"
+        android:layout_centerHorizontal="true"
+         />
+
+    <TextView
+        android:id="@+id/NumeleMasinii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImagineMasina"
+        android:layout_gravity="center"
+        android:layout_marginTop="58dp"
+        android:background="#081978"
+        android:text="Nume masina"
+        android:textColor="#F2E8E0"
+        android:textSize="23dp"
+        app:fontFamily="casual" />
+
+    <Button
+        android:id="@+id/UrmatoareaMasina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NumeleMasinii"
+        android:background="#081978"
+        android:layout_marginTop="30dp"
+        android:text="Urmatoarea"
+        android:textSize="30dp"
+        app:backgroundTint="#081978" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

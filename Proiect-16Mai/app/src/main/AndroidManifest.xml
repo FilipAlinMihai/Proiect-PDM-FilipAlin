@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proiect">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proiect">
+        <activity
+            android:name=".CereriInAsteptare"
+            android:exported="false" />
+        <activity
+            android:name=".CautaMasina"
+            android:exported="false" />
+        <activity
+            android:name=".ModificaMasina"
+            android:exported="false" />
+        <activity
+            android:name=".CereriAnterioare"
+            android:exported="false" />
+        <activity
+            android:name=".AfisareCereri"
+            android:exported="false" />
+        <activity
+            android:name=".CerereInciriere"
+            android:exported="false" />
+        <activity
+            android:name=".AfisareMasina"
+            android:exported="false" />
+        <activity
+            android:name=".StergeMasini"
+            android:exported="false" />
+        <activity
+            android:name=".AdaugaMasina"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaAdministrator"
+            android:exported="false" />
+        <activity
+            android:name=".Administrator"
+            android:exported="false" />
+        <activity
+            android:name=".Chestionar"
+            android:exported="false" />
+        <activity
+            android:name=".Principal"
+            android:exported="false" />
+        <activity
+            android:name=".Autentificare"
+            android:exported="false" />
+        <activity
+            android:name=".CreareCont"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

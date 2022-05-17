@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreareCont"
+    android:background="@drawable/fundal3">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#081978"
+        android:text="Creare Cont"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:drawableTint="#C82F2F"
+        app:fontFamily="casual" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="40dp"
+        android:background="#30ffffff"
+        android:hint="Nume Utilizator"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="20dp"
+        android:singleLine="true"
+        />
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editText5"
+        android:layout_marginTop="30dp"
+        android:background="#30ffffff"
+        android:hint="Parola1"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="20dp"
+        android:singleLine="true"
+        />
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editText6"
+        android:layout_marginTop="30dp"
+        android:background="#30ffffff"
+        android:hint="Parola2"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#000000"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="20dp"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editText7"
+        android:layout_marginTop="30dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+        android:drawablePadding="20dp"
+        android:hint="Email"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buton"
+        android:text="Autentificare"
+        android:fontFamily="cursive"
+        android:textColor="#FFFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:backgroundTint="#081978"
+
+        />
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal"
+    android:background="@drawable/fundal3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#669933"
+        android:layout_marginTop="30dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#669933"
+            >
+    <TextView
+        android:id="@+id/TextViewS"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#081978"
+        android:gravity="center"
+        android:text="@string/bun_venit"
+        android:textColor="#F2E8E0"
+        android:textSize="35sp"
+        app:drawableTint="#C82F2F"
+        app:fontFamily="casual" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_below="@+id/TextViewS"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/buton"
+        android:text="@string/masini"
+        android:textColor="#F2E8E0"
+        android:textSize="25sp"
+        app:backgroundTint="#081978" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buton"
+        android:text="@string/chestionar"
+        android:textColor="#F2E8E0"
+        android:textSize="25sp"
+        app:backgroundTint="#081978" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buton"
+        android:text="@string/inchiriaza"
+        android:textColor="#F2E8E0"
+        android:textSize="25sp"
+        app:backgroundTint="#081978" />
+    <Button
+        android:id="@+id/CereriAnterioare"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buton"
+        android:text="Inchirieri Anterioare"
+        android:textColor="#F2E8E0"
+        android:textSize="25sp"
+        app:backgroundTint="#081978" />
+            <Button
+                android:id="@+id/CautaMasina"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CereriAnterioare"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/buton"
+                android:text="Cauta Masina"
+                android:textColor="#F2E8E0"
+                android:textSize="25sp"
+                android:layout_marginBottom="20dp"
+                app:backgroundTint="#081978" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

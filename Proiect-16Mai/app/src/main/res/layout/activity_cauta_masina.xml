@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CautaMasina"
+    android:background="@drawable/fundal3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#669933"
+        android:layout_marginTop="30dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#669933"
+            >
+    <TextView
+        android:id="@+id/TitluCautare"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#081978"
+        android:gravity="center"
+        android:text="Cauta o masina"
+        android:textColor="#F2E8E0"
+        android:textSize="35sp"
+        app:drawableTint="#C82F2F"
+        app:fontFamily="casual" />
+
+    <EditText
+        android:id="@+id/MasinaCautata"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/TitluCautare"
+        android:layout_marginTop="50dp"
+        android:background="#30ffffff"
+        android:hint="Masina"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp"
+        android:drawablePadding="20dp"
+        android:singleLine="true"
+        />
+    <Button
+        android:id="@+id/Cauta"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/buton"
+        android:text="Cauta"
+        android:textColor="#F2E8E0"
+        android:textSize="25sp"
+        app:backgroundTint="#081978"
+        android:layout_below="@+id/MasinaCautata"/>
+
+    <ImageView
+        android:id="@+id/RezultatCautare"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Cauta"
+        />
+
+    <TextView
+        android:id="@+id/DateMasina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#081978"
+        android:gravity="center"
+        android:textColor="#F2E8E0"
+        android:textSize="35sp"
+        app:drawableTint="#C82F2F"
+        app:fontFamily="casual"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/RezultatCautare"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

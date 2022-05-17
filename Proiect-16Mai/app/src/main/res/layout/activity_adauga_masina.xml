@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdaugaMasina"
+    android:background="@drawable/fundal3">
+
+    <TextView
+        android:id="@+id/Primire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#081978"
+        android:text="Adaugare"
+        android:textColor="#F2E8E0"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        app:fontFamily="casual"
+        />
+    <EditText
+        android:id="@+id/NumeMasina"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/Primire"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="Nume"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/Producator"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/NumeMasina"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="Producator"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/Tip"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/Producator"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="Tip"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/Pret"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/Tip"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="Pret"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/Numar"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/Pret"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="Numar masini"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/Performanta"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/Numar"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="Performanta"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/Confort"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/Performanta"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="Confort"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/Agilitate"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/Confort"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="Agilitate"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp" />
+    <EditText
+        android:id="@+id/Teren"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/Agilitate"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="Teren"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/Depozitare"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/Teren"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="Depozitare"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/AdaugaMasina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Adauga"
+        android:layout_below="@+id/Depozitare"
+        app:backgroundTint="#081978"/>
+
+</RelativeLayout>

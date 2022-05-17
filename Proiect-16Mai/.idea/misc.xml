@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/drawable/buton.xml" value="0.2275" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/drawable/ic_lock_black_24dp.xml" value="0.2265" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_adauga_masina.xml" value="0.264" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_adaugare_masini.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_administrator.xml" value="0.264" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_afisare_cereri.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_afisare_masina.xml" value="0.25" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_autentificare.xml" value="0.264" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_cauta_masina.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_cerere_inciriere.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_cereri_anterioare.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_cereri_in_asteptare.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_chestionar.xml" value="0.2" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_creare_cont.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_modifica_masina.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_pagina_administrator.xml" value="0.264" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_principal.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/activity_sterge_masini.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/Proiect/app/src/main/res/layout/buton.xml" value="0.24010416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

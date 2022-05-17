@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Administrator"
+    android:background="@drawable/fundal3">
+
+    <TextView
+        android:id="@+id/TitluA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#081978"
+        android:text="Administrare"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        app:fontFamily="casual"
+        />
+
+    <EditText
+        android:id="@+id/NumeA"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/TitluA"
+        android:layout_marginTop="50dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="20dp"
+        android:hint="Nume"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="25dp" />
+    <EditText
+        android:id="@+id/ParolaA"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/NumeA"
+        android:layout_marginTop="50dp"
+        android:background="#30ffffff"
+        android:hint="Parola"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="20dp"
+        android:singleLine="true"
+        />
+
+    <Button
+        android:id="@+id/BAutentifAdmin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ParolaA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp"
+        android:background="#081978"
+        android:text="Autentificare"
+        android:textColor="#FFFF"
+        android:textSize="25dp"
+        app:backgroundTint="#081978" />
+</RelativeLayout>

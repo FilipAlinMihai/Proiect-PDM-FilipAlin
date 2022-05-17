@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CereriInAsteptare"
+    android:background="@drawable/fundal3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#669933"
+        android:layout_marginTop="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#669933"
+            >
+    <TextView
+        android:id="@+id/TitluAsteptare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#081978"
+        android:text="Cereri in asteptare"
+        android:textColor="#F2E8E0"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        app:fontFamily="casual"
+        />
+
+    <TextView
+        android:id="@+id/DateInchiriere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#081978"
+        android:text="Date"
+        android:layout_marginTop="30dp"
+        android:textColor="#F2E8E0"
+        android:layout_below="@+id/TitluAsteptare"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        app:fontFamily="casual"
+        />
+
+    <Button
+        android:id="@+id/UrmatoareaCerere"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DateInchiriere"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buton"
+        android:text="Urmatoatea"
+        android:textColor="#F2E8E0"
+        android:textSize="30dp"
+        app:backgroundTint="#081978" />
+
+    <Button
+        android:id="@+id/Aprobare"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/UrmatoareaCerere"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buton"
+        android:text="Aproba"
+        android:textColor="#F2E8E0"
+        android:textSize="30dp"
+        app:backgroundTint="#081978" />
+
+    <Button
+        android:id="@+id/Respinge"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Aprobare"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buton"
+        android:text="Respinge"
+        android:textColor="#F2E8E0"
+        android:textSize="30dp"
+        app:backgroundTint="#081978"
+        android:layout_marginBottom="20dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

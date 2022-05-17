@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CereriAnterioare"
+    android:background="@drawable/fundal7">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#669933"
+        android:layout_marginTop="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#669933"
+            >
+    <TextView
+        android:id="@+id/TitluCereriAnterioare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#081978"
+        android:text="Cereri anterioare"
+        android:textColor="#F2E8E0"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        app:fontFamily="casual"
+        />
+
+    <TextView
+        android:id="@+id/CereriAnterioareA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cereri"
+        android:layout_below="@+id/TitluCereriAnterioare"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

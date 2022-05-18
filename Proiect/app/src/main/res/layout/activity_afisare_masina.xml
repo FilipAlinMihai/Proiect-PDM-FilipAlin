@@ -61,7 +61,8 @@
         android:layout_marginTop="30dp"
         android:text="Urmatoarea"
         android:textSize="30dp"
-        app:backgroundTint="#081978" />
+        app:backgroundTint="#081978"
+        app:fontFamily="casual" />
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>

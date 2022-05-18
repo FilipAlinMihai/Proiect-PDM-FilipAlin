@@ -153,6 +153,8 @@
         android:textSize="20dp"
         android:text="Adauga"
         android:layout_below="@+id/Depozitare"
-        app:backgroundTint="#081978"/>
+        app:backgroundTint="#081978"
+        app:fontFamily="casual"
+        android:background="@drawable/buton"/>
 
 </RelativeLayout>

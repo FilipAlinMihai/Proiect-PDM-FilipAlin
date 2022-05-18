@@ -337,7 +337,7 @@ public class Chestionar extends AppCompatActivity {
                String m2= gasesteMasini(calitate2);
 
                String afisare="";
-               afisare=m1+" "+m2;
+               afisare=m1+"\n "+m2;
                 rezultat.setText(afisare);
             }
         });

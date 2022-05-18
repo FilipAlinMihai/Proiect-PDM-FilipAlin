@@ -704,6 +704,7 @@
                 android:layout_below="@+id/grup15"
                 android:text="Raspunde"
                 android:textSize="30dp"
+                app:fontFamily="casual"
                 android:background="@drawable/buton"/>
             <TextView
                 android:id="@+id/Rezultate"

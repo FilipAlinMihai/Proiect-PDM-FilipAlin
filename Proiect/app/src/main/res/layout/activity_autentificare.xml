@@ -4,42 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Administrator"
+    tools:context=".Autentificare"
     android:background="@drawable/fundal3">
 
     <TextView
-        android:id="@+id/TitluA"
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:background="#081978"
-        android:text="Administrare"
-        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="Autentificare"
+        android:textColor="#FFFF"
         android:textSize="35dp"
-        android:layout_gravity="center"
-        app:fontFamily="casual"
-        />
+        app:drawableTint="#C82F2F"
+        app:fontFamily="casual" />
 
     <EditText
-        android:id="@+id/NumeA"
+        android:id="@+id/editText3"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_below="@+id/TitluA"
+        android:layout_below="@+id/textView3"
         android:layout_marginTop="50dp"
-        android:background="#30ffffff"
+        android:background="@drawable/buton"
         android:drawableLeft="@drawable/ic_person_black_24dp"
         android:drawablePadding="20dp"
-        android:hint="Nume"
+        android:hint="Email"
         android:singleLine="true"
         android:textColor="#000000"
         android:textColorHint="#000000"
-        android:textSize="25dp" />
+        android:textSize="25dp"
+        app:backgroundTint="#60ffffff" />
     <EditText
-        android:id="@+id/ParolaA"
+        android:id="@+id/editText4"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_below="@+id/NumeA"
+        android:layout_below="@+id/editText3"
         android:layout_marginTop="50dp"
-        android:background="#30ffffff"
+        android:background="@drawable/buton"
+        app:backgroundTint="#60ffffff"
+        android:inputType="textPassword"
         android:hint="Parola"
         android:textColor="#000000"
         android:textColorHint="#000000"
@@ -50,15 +54,17 @@
         />
 
     <Button
-        android:id="@+id/BAutentifAdmin"
+        android:id="@+id/button3"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ParolaA"
+        android:layout_below="@+id/editText4"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="131dp"
-        android:background="#081978"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/buton"
         android:text="Autentificare"
         android:textColor="#FFFF"
         android:textSize="25dp"
+        app:fontFamily="casual"
         app:backgroundTint="#081978" />
+
 </RelativeLayout>

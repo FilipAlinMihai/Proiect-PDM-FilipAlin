@@ -4,15 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ModificaMasina"
+    tools:context=".StergeMasini"
     android:background="@drawable/fundal3">
-
     <TextView
-        android:id="@+id/ModificareTitlu"
+        android:id="@+id/StergereTitlu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#081978"
-        android:text="Modificare"
+        android:text="Stergere"
         android:textColor="#F2E8E0"
         android:textSize="35dp"
         android:layout_gravity="center"
@@ -20,44 +19,33 @@
         />
 
     <EditText
-        android:id="@+id/NumeMasinaEdit"
+        android:id="@+id/MasinaStergere"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_below="@+id/ModificareTitlu"
-        android:background="#30ffffff"
-        android:drawablePadding="20dp"
-        android:hint="Nume Masina"
-        android:singleLine="true"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
+        android:layout_below="@+id/StergereTitlu"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buton"
+        android:backgroundTint="#60ffffff"
+        android:drawableLeft="@drawable/ic_baseline_directions_car_24"
+        android:hint="Masina"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
         android:textSize="25dp"
-        android:layout_marginTop="30dp"/>
-
-    <EditText
-        android:id="@+id/NumarNou"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_below="@+id/NumeMasinaEdit"
-        android:background="#30ffffff"
         android:drawablePadding="20dp"
-        android:hint="Numar Nou"
         android:singleLine="true"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textSize="25dp"
-        android:layout_marginTop="30dp"/>
+        />
 
     <Button
-        android:id="@+id/Modifica"
+        android:id="@+id/StergeMasina"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/NumarNou"
+        android:layout_below="@+id/MasinaStergere"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:background="@drawable/buton"
-        android:text="Modifica"
+        android:text="Stergere"
         android:textColor="#F2E8E0"
         android:textSize="25sp"
+        app:fontFamily="casual"
         app:backgroundTint="#081978" />
-
 </RelativeLayout>

@@ -42,8 +42,10 @@ public class CreareCont extends AppCompatActivity {
                         if(reusita==true)
                         {
                             Toast.makeText(CreareCont.this, "Date Introduse", Toast.LENGTH_SHORT).show();
-                            Intent i =new Intent(CreareCont.this,Principal.class);
-                            startActivity(i);
+                            Intent i2 =new Intent(CreareCont.this,Principal.class);
+                            i2.putExtra("email",e);
+                            startActivity(i2);
+
                         }
                         else
                             Toast.makeText(CreareCont.this, "Datele nu au fost introduse!", Toast.LENGTH_SHORT).show();

@@ -54,7 +54,8 @@
         android:text="Urmatoatea"
         android:textColor="#F2E8E0"
         android:textSize="30dp"
-        app:backgroundTint="#081978" />
+        app:backgroundTint="#081978"
+        app:fontFamily="casual" />
 
     <Button
         android:id="@+id/Aprobare"
@@ -67,7 +68,8 @@
         android:text="Aproba"
         android:textColor="#F2E8E0"
         android:textSize="30dp"
-        app:backgroundTint="#081978" />
+        app:backgroundTint="#081978"
+        app:fontFamily="casual" />
 
     <Button
         android:id="@+id/Respinge"
@@ -81,7 +83,8 @@
         android:textColor="#F2E8E0"
         android:textSize="30dp"
         app:backgroundTint="#081978"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        app:fontFamily="casual" />
         </RelativeLayout>
     </ScrollView>
 
